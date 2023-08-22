@@ -1,0 +1,66 @@
+body {
+    background-color: #421100;
+}
+
+
+.homenagem {
+    max-width: 1000px; 
+    margin: 0 auto; 
+  }
+
+.homenagem img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.homenagemtext {
+    background: linear-gradient(to right, #cc6600, #cc3300);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 100%;
+    font-size: 24px;
+}
+
+.homenagemtext .p1 {
+  margin-block-start: 0px;
+}
+
+.homenagem .txt {
+    text-align: center;
+    color: #C84918;
+}
+
+.imagem {
+    display: inline-block;
+    position: relative;
+}
+
+.imagem .txt2{
+    max-width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: yellow;
+    visibility: hidden;
+}
+
+.imagem:hover .txt2 {
+    visibility: visible; 
+  }
+
+.homenagemtext .sol {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.homenagemtext .qualidades {
+    text-align: center;
+}
+
+hr {
+    border-color: #C84918;
+    width: 37%;
+}
+
+
